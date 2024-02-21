@@ -1,0 +1,24 @@
+.footer {
+  background-color: #33353F;
+  color: white;
+  border-top: 1px solid #33353F;
+  border-left: transparent;
+  border-right: transparent;
+  width: 100%;
+  /* Other styles remain the same */
+}
+
+/* Style for the container inside the footer */
+.footer .container {
+  display: flex;              /* Flexbox display */
+  justify-content: end;       /* Aligns items to the end on the main axis */
+  align-items: end;           /* Aligns items to the end on the cross axis */
+  padding: 12px;              /* Padding around the container */
+  height: 100%;               /* Full height of the container */
+}
+
+/* Style for the text span inside the container */
+.footer .container span {
+  font-size: 1rem;            /* Font size for the text */
+  /* Add additional styling as needed */
+}

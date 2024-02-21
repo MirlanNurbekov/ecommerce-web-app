@@ -1,0 +1,44 @@
+/* App Component Styles */
+
+.App {
+  width: 100%;
+  height: auto;
+  min-height: 100vh; /* Ensures the app fills the whole viewport height */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column; /* Organizes content in a column */
+  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically */
+  padding: 20px; /* Adds padding around the content */
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 100vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4; /* A light background color for the body */
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 10px; /* Reduces padding for smaller screens */
+    
+  }
+
+  /* Add more styles specific to smaller screens if needed */
+}
+
+/* Additional responsive design for even smaller screens, like mobile devices */
+@media screen and (max-width: 480px) {
+  .App {
+   
+  }
+}
+
+.main-content {
+  flex-grow: 1; /* Takes up all available space */
+  /* Other styles */
+}
